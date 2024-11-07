@@ -1,0 +1,237 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .video-overlay-content h2 {
+        font-size: 50px;
+    }
+    .video-overlay-content {
+        transform: translate(-50%, -30%);
+    }
+    .header-area {
+        padding: 0;
+        padding-top: 10px;
+    }
+    .video-overlay-content {
+        transform: translate(-50%, -30%);
+    }
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .single-team {
+        padding: 10px;
+    }
+
+    .business-image {
+        margin-bottom: 30px;
+    }
+
+    .about-area .row {
+        align-items: start !important;
+    }
+
+    .video-overlay-content h2 {
+        font-size: 3rem;
+    }
+
+    .video-overlay-content p {
+        font-size: 25px;
+    }
+
+    .video-overlay-content {
+        transform: translate(-50%, -30%);
+        width: 90%;
+    }
+}
+
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .footer-social li {
+        margin: 3px;
+    }
+    .video-overlay-content .btn {
+        margin-top: 20px;
+    }
+    .header-sticky.sticky .header-area {
+        padding: 16px 0;
+    }
+    .container.video-content h1 {
+        font-size: 40px;
+    }
+
+    .cta_button {
+        margin-top: 30px;
+        text-align: start !important;
+    }
+
+    .growth-content h2 {
+        font-size: 25px;
+    }
+
+    .business-image {
+        margin-bottom: 30px;
+    }
+
+    .about-img {
+        margin-bottom: 20px;
+    }
+
+    .about-area .row {
+        align-items: start !important;
+    }
+
+    .video-overlay-content h2 {
+        font-size: 2rem;
+        margin-bottom: 0;
+    }
+
+    .video-overlay-content p {
+        font-size: 20px;
+        margin-bottom: 0;
+        margin-top: 30px;
+    }
+
+    .video-overlay-content {
+        transform: translate(-50%, -25%);
+    }
+    .logo img {
+        width: 100px !important;
+    }
+}
+
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .copyright {
+        justify-content: center !important;
+    }
+
+    .mobile_space {
+        padding: 15px 0;
+    }
+
+    .top-space {
+        margin-top: 20px;
+    }
+
+    .cta_button {
+        margin-top: 30px;
+        text-align: start !important;
+    }
+
+
+    .product-screen-1 {
+        bottom: 0 !important;
+        top: inherit;
+        left: calc(40% + 54px);
+    }
+
+    .business-image {
+        margin-bottom: 30px;
+    }
+
+    .business-content h3 {
+        font-size: 20px;
+    }
+
+    .about-img {
+        margin-bottom: 20px;
+    }
+
+    .about-img img {
+        margin-left: 0;
+    }
+
+    .growth-content h2 {
+        font-size: 25px;
+    }
+
+    .growth-content p {
+        font-size: 16px;
+    }
+
+    .growth-content {
+        margin-bottom: 20px;
+    }
+
+    .product-screen-2 {
+        left: 0;
+    }
+
+    footer .section-space {
+        padding: 20px 10px;
+    }
+
+    .contact.section-space,
+    .industry-area.section-space {
+        padding-top: 0;
+    }
+
+
+
+    .single-client img {
+        height: auto;
+    }
+
+    .video-overlay-content {
+        width: 100%;
+    }
+
+    .video-overlay-content p {
+        display: none;
+    }
+
+    .video-overlay-content h2 {
+        font-size: 20px;
+        padding: 0 20px;
+        margin-bottom: 0;
+        margin-top: 50px;
+    }
+
+    .video-overlay-content a {
+        padding: 5px 30px !important;
+        margin-top: 10px !important;
+    }
+
+    .logo img {
+        width: 70px !important;
+    }
+    .header-area {
+        padding: 0;
+        padding-top: 10px;
+    }
+    .video-overlay-content a {
+        display: none !important; 
+    }
+    #offcanvasExampleLabel img {
+        width: 30% !important;
+    }
+    .fa-solid.fa-bars-staggered.text-white {
+        font-size: 25px;
+    }
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container {
+        width: 450px
+    }
+
+    .video-overlay-content a {
+        display: block !important;
+        width: 180px !important;
+        margin: auto;
+    }
+
+    .logo img {
+        width: 90px !important;
+    }
+    .video-overlay-content h2 {
+        font-size: 30px;
+        margin-bottom: 0;
+        margin-top: 50px;
+    }
+
+}
